@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___EVENT_LOG_NOTIFICATION</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>EVENT_LOG_NOTIFICATION</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Оповещение журнала событий</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL# - Email получателя
+#ADDITIONAL_TEXT# - Дополнительный текст действия
+#NAME# - Название оповещения
+#AUDIT_TYPE_ID# - Тип события
+#ITEM_ID# - Объект
+#USER_ID# - Пользователь
+#REMOTE_ADDR# - IP-адрес
+#USER_AGENT# - Браузер
+#REQUEST_URI# - Страница
+#EVENT_COUNT# - Количество записей</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>9</value>
+	</field>
+</data>

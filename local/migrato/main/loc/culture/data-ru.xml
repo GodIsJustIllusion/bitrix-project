@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru</xml_id>
+	<field>
+		<name>CODE</name>
+		<value>ru</value>
+	</field>
+	<field>
+		<name>FORMAT_DATE</name>
+		<value>DD.MM.YYYY</value>
+	</field>
+	<field>
+		<name>FORMAT_DATETIME</name>
+		<value>DD.MM.YYYY HH:MI:SS</value>
+	</field>
+	<field>
+		<name>FORMAT_NAME</name>
+		<value>#NAME# #LAST_NAME#</value>
+	</field>
+	<field>
+		<name>WEEK_START</name>
+		<value>1</value>
+	</field>
+	<field>
+		<name>CHARSET</name>
+		<value>UTF-8</value>
+	</field>
+	<field>
+		<name>DIRECTION</name>
+		<value>Y</value>
+	</field>
+</data>

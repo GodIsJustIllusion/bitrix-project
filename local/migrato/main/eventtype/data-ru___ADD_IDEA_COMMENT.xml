@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___ADD_IDEA_COMMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADD_IDEA_COMMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Добавлен новый комментарий к идее</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#FULL_PATH# - Путь к комментарию к идее
+#IDEA_TITLE# - Заголовок идеи
+#AUTHOR# - Имя автора комментария к идее
+#IDEA_COMMENT_TEXT# - Текст комментария к идее
+#DATE_CREATE# - Дата и время создания комментария к идее
+#EMAIL_TO# - Email подписчика</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

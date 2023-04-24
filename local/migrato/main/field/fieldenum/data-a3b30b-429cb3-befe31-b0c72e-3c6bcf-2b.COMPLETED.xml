@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>a3b30b-429cb3-befe31-b0c72e-3c6bcf-2b.COMPLETED</xml_id>
+	<dependency>
+		<name>USER_FIELD_ID</name>
+		<value>a3b30b-429cb3-befe31-b0c72e-3c6bcf-2b</value>
+	</dependency>
+	<field>
+		<name>VALUE</name>
+		<value>Внедрено</value>
+	</field>
+	<field>
+		<name>DEF</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>300</value>
+	</field>
+</data>

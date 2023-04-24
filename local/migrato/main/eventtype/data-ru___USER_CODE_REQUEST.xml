@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___USER_CODE_REQUEST</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>USER_CODE_REQUEST</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Запрос кода авторизации</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_ID# - ID пользователя
+#STATUS# - Статус логина
+#LOGIN# - Логин
+#CHECKWORD# - Код для авторизации
+#NAME# - Имя
+#LAST_NAME# - Фамилия
+#EMAIL# - Email пользователя
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>10</value>
+	</field>
+</data>

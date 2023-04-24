@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___IM_NEW_NOTIFY_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>IM_NEW_NOTIFY_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New notification (group)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#MESSAGE_ID# - message ID
+#USER_ID# - user ID
+#USER_LOGIN# - user Login
+#USER_NAME# - user first name
+#USER_LAST_NAME# - user last name
+#FROM_USERS# - message senders names
+#DATE_CREATE# - the date the message was created
+#TITLE# - message title
+#MESSAGE# - message body
+#MESSAGE_50# - first 50 characters of the message text
+#EMAIL_TO# - message recipient e-mail address
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>sale_new_order-09f8ce31a2</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___SALE_NEW_ORDER</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#SALE_EMAIL#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#EMAIL#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: Новый заказ N#ORDER_ID#</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;ru&quot; lang=&quot;ru&quot;&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=UTF-8&quot;/&gt;
+	&lt;style&gt;
+		body
+		{
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;850&quot; style=&quot;background-color: #d1d1d1; border-radius: 2px; border:1px solid #d1d1d1; margin: 0 auto;&quot; border=&quot;1&quot; bordercolor=&quot;#d1d1d1&quot;&gt;
+	&lt;tr&gt;
+		&lt;td height=&quot;83&quot; width=&quot;850&quot; bgcolor=&quot;#eaf3f5&quot; style=&quot;border: none; padding-top: 23px; padding-right: 17px; padding-bottom: 24px; padding-left: 17px;&quot;&gt;
+			&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+				&lt;tr&gt;
+					&lt;td bgcolor=&quot;#ffffff&quot; height=&quot;75&quot; style=&quot;font-weight: bold; text-align: center; font-size: 26px; color: #0b3961;&quot;&gt;Вами оформлен заказ в магазине #SITE_NAME#&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td bgcolor=&quot;#bad3df&quot; height=&quot;11&quot;&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/table&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td width=&quot;850&quot; bgcolor=&quot;#f7f7f7&quot; valign=&quot;top&quot; style=&quot;border: none; padding-top: 0; padding-right: 44px; padding-bottom: 16px; padding-left: 44px;&quot;&gt;
+			&lt;p style=&quot;margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;&quot;&gt;Уважаемый #ORDER_USER#,&lt;/p&gt;
+			&lt;p style=&quot;margin-top: 0; margin-bottom: 20px; line-height: 20px;&quot;&gt;Ваш заказ номер #ORDER_ID# от #ORDER_DATE# принят.&lt;br /&gt;
+&lt;br /&gt;
+Стоимость заказа: #PRICE#.&lt;br /&gt;
+&lt;br /&gt;
+Состав заказа:&lt;br /&gt;
+#ORDER_LIST#&lt;br /&gt;
+&lt;br /&gt;
+Вы можете следить за выполнением своего заказа (на какой стадии выполнения он находится), войдя в Ваш персональный раздел сайта #SITE_NAME#.&lt;br /&gt;
+&lt;br /&gt;
+Обратите внимание, что для входа в этот раздел Вам необходимо будет ввести логин и пароль пользователя сайта #SITE_NAME#.&lt;br /&gt;
+&lt;br /&gt;
+Для того, чтобы аннулировать заказ, воспользуйтесь функцией отмены заказа, которая доступна в Вашем персональном разделе сайта #SITE_NAME#.&lt;br /&gt;
+&lt;br /&gt;
+Пожалуйста, при обращении к администрации сайта #SITE_NAME# ОБЯЗАТЕЛЬНО указывайте номер Вашего заказа - #ORDER_ID#.&lt;br /&gt;
+&lt;br /&gt;
+Спасибо за покупку!&lt;br /&gt;
+&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td height=&quot;40px&quot; width=&quot;850&quot; bgcolor=&quot;#f7f7f7&quot; valign=&quot;top&quot; style=&quot;border: none; padding-top: 0; padding-right: 44px; padding-bottom: 30px; padding-left: 44px;&quot;&gt;
+			&lt;p style=&quot;border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; line-height:21px;&quot;&gt;С уважением,&lt;br /&gt;администрация &lt;a href=&quot;http://#SERVER_NAME#&quot; style=&quot;color:#2e6eb6;&quot;&gt;Интернет-магазина&lt;/a&gt;&lt;br /&gt;
+				E-mail: &lt;a href=&quot;mailto:#SALE_EMAIL#&quot; style=&quot;color:#2e6eb6;&quot;&gt;#SALE_EMAIL#&lt;/a&gt;
+			&lt;/p&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>html</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value>#BCC#</value>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

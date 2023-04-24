@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SONET_NEW_EVENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_NEW_EVENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New Event</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ENTITY_ID# - The event source ID
+#LOG_DATE# - The date the event was logged
+#TITLE# - The title
+#MESSAGE# - The message
+#URL# - URL
+#ENTITY# - The event registration disposition
+#SUBSCRIBER_NAME# - The recipient's first name
+#SUBSCRIBER_LAST_NAME# - The recipient's last name
+#SUBSCRIBER_EMAIL# - The recipient's e-mail address
+#SUBSCRIBER_ID# - The recipient's ID</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>MAIL_INVITED</xml_id>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Почтовые пользователи</value>
+	</field>
+	<field>
+		<name>C_SORT</name>
+		<value>201</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Пользователи, авторизуемые на портале по прямой ссылке из почтовых уведомлений</value>
+	</field>
+	<field>
+		<name>STRING_ID</name>
+		<value>MAIL_INVITED</value>
+	</field>
+</data>

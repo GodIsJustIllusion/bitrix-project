@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>b_hlsys_marking_code_group</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>ProductMarkingCodeGroup</value>
+	</field>
+	<field>
+		<name>TABLE_NAME</name>
+		<value>b_hlsys_marking_code_group</value>
+	</field>
+	<field>
+		<name>MESSAGES.en</name>
+		<value>Product type groups</value>
+	</field>
+	<field>
+		<name>MESSAGES.ru</name>
+		<value>Типы групп товаров</value>
+	</field>
+</data>

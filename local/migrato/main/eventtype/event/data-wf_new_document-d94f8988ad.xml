@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>wf_new_document-d94f8988ad</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___WF_NEW_DOCUMENT</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#DEFAULT_EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#ENTERED_BY_EMAIL#, #ADMIN_EMAIL#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: Создан новый документ</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>Создан новый документ на сайте #SITE_NAME#.
+---------------------------------------------------------------------------
+
+Сейчас поля документа имеют следующие значения:
+
+ID           - #ID#
+Имя файла    - #FILENAME#
+Заголовок    - #TITLE#
+Статус       - [#STATUS_ID#] #STATUS_TITLE#
+Создан       - #DATE_ENTER#; [#ENTERED_BY_ID#] #ENTERED_BY_NAME#
+
+Содержимое (тип - #BODY_TYPE#):
+---------------------------------------------------------------------------
+#BODY_TEXT#
+---------------------------------------------------------------------------
+
+Комментарий:
+---------------------------------------------------------------------------
+#COMMENTS#
+---------------------------------------------------------------------------
+
+Для просмотра и редактирования документа воспользуйтесь ссылкой:
+http://#SERVER_NAME#/bitrix/admin/workflow_edit.php?lang=ru&amp;ID=#ID#
+
+Письмо сгенерировано автоматически.
+</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>text</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value>#BCC#</value>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

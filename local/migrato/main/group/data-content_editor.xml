@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>content_editor</xml_id>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Контент-редакторы</value>
+	</field>
+	<field>
+		<name>C_SORT</name>
+		<value>300</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Доступ к редактированию информации на сайте.</value>
+	</field>
+	<field>
+		<name>STRING_ID</name>
+		<value>content_editor</value>
+	</field>
+</data>

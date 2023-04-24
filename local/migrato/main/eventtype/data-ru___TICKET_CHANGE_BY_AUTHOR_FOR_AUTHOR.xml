@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___TICKET_CHANGE_BY_AUTHOR_FOR_AUTHOR</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>TICKET_CHANGE_BY_AUTHOR_FOR_AUTHOR</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Обращение изменено автором (для автора)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#ID# - ID обращения
+#LANGUAGE_ID# - идентификатор языка сайта к которому привязано обращение
+#WHAT_CHANGE# - список того что в обращении изменилось
+#DATE_CREATE# - дата создания 
+#TIMESTAMP# - дата изменения
+#DATE_CLOSE# - дата закрытия
+#TITLE# - заголовок обращения
+#STATUS# - статус обращения
+#CATEGORY# - категория обращения
+#CRITICALITY# - критичность обращения
+#RATE# - оценка ответов
+#SLA# - уровень техподдержки
+#SOURCE# - первоначальный источник обращения (web, email, телефон и т.д.)
+#SPAM_MARK# - отметка о спаме
+#MESSAGES_AMOUNT# - количество сообщений в обращении
+#ADMIN_EDIT_URL# - ссылка для изменения обращения (в административную часть)
+#PUBLIC_EDIT_URL# - ссылка для изменения обращения (в публичную часть)
+
+#OWNER_EMAIL# - #OWNER_USER_EMAIL# и/или #OWNER_SID#
+#OWNER_USER_ID# - ID автора обращения
+#OWNER_USER_NAME# - имя автора обращения
+#OWNER_USER_LOGIN# - логин автора обращения
+#OWNER_USER_EMAIL# - email автора обращения
+#OWNER_TEXT# - [#OWNER_USER_ID#] (#OWNER_USER_LOGIN#) #OWNER_USER_NAME#
+#OWNER_SID# - произвольный идентификатор автора обращения (email, телефон и т.п.)
+
+#SUPPORT_EMAIL# - #RESPONSIBLE_USER_EMAIL# или #SUPPORT_ADMIN_EMAIL#
+#RESPONSIBLE_USER_ID# - ID ответственного за обращение
+#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
+#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
+#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
+#RESPONSIBLE_TEXT# - [#RESPONSIBLE_USER_ID#] (#RESPONSIBLE_USER_LOGIN#) #RESPONSIBLE_USER_NAME#
+#SUPPORT_ADMIN_EMAIL# - EMail администраторов техподдержки
+
+#CREATED_USER_ID# - ID создателя обращения
+#CREATED_USER_LOGIN# - логин создателя обращения
+#CREATED_USER_EMAIL# - email создателя обращения
+#CREATED_USER_NAME# - имя создателя обращения
+#CREATED_MODULE_NAME# - идентификатор модуля средствами которого было создан обращение
+#CREATED_TEXT# - [#CREATED_USER_ID#] (#CREATED_USER_LOGIN#) #CREATED_USER_NAME#
+
+#MODIFIED_USER_ID# - ID изменившего обращение
+#MODIFIED_USER_LOGIN# - логин изменившего обращение
+#MODIFIED_USER_EMAIL# - EMail изменившего обращение
+#MODIFIED_USER_NAME# - имя изменившего обращение
+#MODIFIED_MODULE_NAME# - идентификатор модуля средствами которого был изменен обращение
+#MODIFIED_TEXT# - [#MODIFIED_USER_ID#] (#MODIFIED_USER_LOGIN#) #MODIFIED_USER_NAME#
+
+#MESSAGE_AUTHOR_USER_ID# - ID автора сообщения
+#MESSAGE_AUTHOR_USER_NAME# - имя автора сообщения
+#MESSAGE_AUTHOR_USER_LOGIN# - логин автора сообщения
+#MESSAGE_AUTHOR_USER_EMAIL# - email автора сообщения
+#MESSAGE_AUTHOR_TEXT# - [#MESSAGE_AUTHOR_USER_ID#] (#MESSAGE_AUTHOR_USER_LOGIN#) #MESSAGE_AUTHOR_USER_NAME#
+#MESSAGE_AUTHOR_SID# - произвольный идентификатор автора сообщения (email, телефон и т.д.)
+#MESSAGE_SOURCE# - источник сообщения
+#MESSAGE_BODY# - текст сообщения
+#FILES_LINKS# - ссылки на прикрепленные файлы
+
+#SUPPORT_COMMENTS# - административный комментарий
+
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

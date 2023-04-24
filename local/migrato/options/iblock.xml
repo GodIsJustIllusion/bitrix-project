@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>combined_list_mode</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>use_htmledit</name>
+		<value>Y</value>
+		<site/>
+	</option>
+</options>

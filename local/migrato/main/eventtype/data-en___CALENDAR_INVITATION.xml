@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___CALENDAR_INVITATION</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>CALENDAR_INVITATION</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Invitation</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+#EMAIL_TO# - invited person e-mail
+#TITLE# - subject
+#MESSAGE# - full description of the event
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>catalog_product_subscribe_notify-668bfe879a</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___CATALOG_PRODUCT_SUBSCRIBE_NOTIFY</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#DEFAULT_EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#EMAIL_TO#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: Уведомление о поступлении товара</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>
+			&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+			&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+			&lt;head&gt;
+				&lt;style&gt;
+					body
+					{
+						font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+						font-size: 14px;
+						color: #000;
+					}
+				&lt;/style&gt;
+			&lt;/head&gt;
+			&lt;body&gt;
+			&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;850&quot; style=&quot;background-color: #d1d1d1; border-radius: 2px; 
+				border:1px solid #d1d1d1; margin: 0 auto;&quot; border=&quot;1&quot; bordercolor=&quot;#d1d1d1&quot;&gt;
+				&lt;tr&gt;
+					&lt;td height=&quot;83&quot; width=&quot;850&quot; bgcolor=&quot;#eaf3f5&quot; style=&quot;border: none; padding-top: 23px; 
+						padding-right: 17px; padding-bottom: 24px; padding-left: 17px;&quot;&gt;
+						&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+							&lt;tr&gt;
+								&lt;td bgcolor=&quot;#ffffff&quot; height=&quot;75&quot; style=&quot;font-weight: bold; text-align: 
+								center; font-size: 26px; color: #0b3961;&quot;&gt;Уведомление о поступлении товара в магазин #SITE_NAME#&lt;/td&gt;
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td bgcolor=&quot;#bad3df&quot; height=&quot;11&quot;&gt;&lt;/td&gt;
+							&lt;/tr&gt;
+						&lt;/table&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td width=&quot;850&quot; bgcolor=&quot;#f7f7f7&quot; valign=&quot;top&quot; style=&quot;border: none; padding-top: 0; 
+						padding-right: 44px; padding-bottom: 16px; padding-left: 44px;&quot;&gt;
+						&lt;p style=&quot;margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;&quot;&gt;Уважаемый, #USER_NAME#!&lt;/p&gt;
+						&lt;p style=&quot;margin-top: 0; margin-bottom: 20px; line-height: 20px;&quot;&gt;
+Товар &quot;#NAME#&quot; (#PAGE_URL#) поступил на склад.&lt;br&gt;&lt;br&gt;
+Вы просили оповестить вас о поступлении товара.&lt;br&gt;&lt;br&gt;
+Товар поступил к нам в магазин, вы можете оформить заказ прямо сейчас: (#CHECKOUT_URL#)&lt;br&gt;&lt;br&gt;
+Не отвечайте на письмо, оно сформировано автоматически.&lt;br&gt;&lt;br&gt;
+Спасибо, что вы с нами!&lt;br&gt;
+&lt;/p&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td height=&quot;40px&quot; width=&quot;850&quot; bgcolor=&quot;#f7f7f7&quot; valign=&quot;top&quot; style=&quot;border: none; padding-top: 0; 
+						padding-right: 44px; padding-bottom: 30px; padding-left: 44px;&quot;&gt;
+						&lt;p style=&quot;border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; 
+							line-height:21px;&quot;&gt;С уважением, администрация 
+							&lt;a href=&quot;http://#SERVER_NAME#&quot; style=&quot;color:#2e6eb6;&quot;&gt;Интернет-магазина&lt;/a&gt;&lt;br /&gt;
+							E-mail: &lt;a href=&quot;mailto:#DEFAULT_EMAIL_FROM#&quot; style=&quot;color:#2e6eb6;&quot;&gt;#DEFAULT_EMAIL_FROM#&lt;/a&gt;
+							&lt;br&gt;&lt;a href=&quot;#UNSUBSCRIBE_URL#&quot;&gt;Отписаться&lt;/a&gt;
+						&lt;/p&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/table&gt;
+			&lt;/body&gt;
+			&lt;/html&gt;
+		</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>html</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value>#BCC#</value>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

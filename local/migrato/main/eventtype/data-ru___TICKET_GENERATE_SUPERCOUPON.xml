@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___TICKET_GENERATE_SUPERCOUPON</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>TICKET_GENERATE_SUPERCOUPON</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Использован купон</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#COUPON# - Купон
+#COUPON_ID# - ID Купона
+#DATE# - Дата использования
+#USER_ID# - ID использовавшего пользователя
+#SESSION_ID# - ID сессии
+#GUEST_ID# - ID гостя
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

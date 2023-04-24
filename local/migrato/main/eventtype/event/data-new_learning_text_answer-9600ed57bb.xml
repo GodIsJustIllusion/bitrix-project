@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>new_learning_text_answer-9600ed57bb</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___NEW_LEARNING_TEXT_ANSWER</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#EMAIL_TO#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: #COURSE_NAME#: #MESSAGE_TITLE#</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>Информационное сообщение сайта #SITE_NAME#
+------------------------------------------
+
+Курс:#COURSE_NAME#
+Тест:#TEST_NAME#
+
+Пользователь: #USER#
+Дата: #DATE#
+
+Вопрос:
+------------------------------------------
+#QUESTION_TEXT#
+------------------------------------------
+
+Ответ:
+------------------------------------------
+#ANSWER_TEXT#
+------------------------------------------
+
+Для просмотра и редактирования ответа воспользуйтесь ссылкой:
+http://#SERVER_NAME#/bitrix/admin/learn_test_result_edit.php?lang=ru&amp;ID=#ID#&amp;ATTEMPT_ID=#ATTEMPT_ID#
+
+Сообщение сгенерировано автоматически.</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>text</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value/>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

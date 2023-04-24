@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>1e94ff-33e750-8a30a0-d69808-1ce8bc-f4</xml_id>
+	<dependency>
+		<name>PERSON_TYPE_ID</name>
+		<value>e6b6fe-176243-ea0941-41c262-861a8b-14</value>
+	</dependency>
+	<field>
+		<name>NAME</name>
+		<value>Личные данные</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SALE_STATUS_CHANGED_F</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_STATUS_CHANGED_F</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Изменение статуса заказа на  &quot;Выполнен&quot;</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ORDER_ID# - код заказа
+#ORDER_DATE# - дата заказа
+#ORDER_STATUS# - статус заказа
+#EMAIL# - E-Mail пользователя
+#ORDER_DESCRIPTION# - описание статуса заказа
+#TEXT# - текст
+#SALE_EMAIL# - E-Mail отдела продаж
+#ORDER_PUBLIC_URL# - ссылка для просмотра заказа без авторизации (требуется настройка в модуле интернет-магазина)
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

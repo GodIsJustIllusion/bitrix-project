@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>fabf88-089d27-e80cbd-cc3753-82cb31-72</xml_id>
+	<dependency>
+		<name>GROUP_ID</name>
+		<value>ADMINS</value>
+	</dependency>
+	<dependency>
+		<name>IBLOCK_ID</name>
+		<value>clothes_offers_s1</value>
+	</dependency>
+	<field>
+		<name>PERMISSION</name>
+		<value>X</value>
+	</field>
+</data>

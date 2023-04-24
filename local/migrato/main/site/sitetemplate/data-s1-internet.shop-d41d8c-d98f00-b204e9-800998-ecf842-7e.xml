@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>s1-internet.shop-d41d8c-d98f00-b204e9-800998-ecf842-7e</xml_id>
+	<dependency>
+		<name>SITE</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>CONDITION</name>
+		<value/>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>150</value>
+	</field>
+	<field>
+		<name>TEMPLATE</name>
+		<value>internet.shop</value>
+	</field>
+</data>

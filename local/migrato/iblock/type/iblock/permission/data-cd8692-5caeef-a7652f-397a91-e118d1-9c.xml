@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>cd8692-5caeef-a7652f-397a91-e118d1-9c</xml_id>
+	<dependency>
+		<name>GROUP_ID</name>
+		<value>ADMINS</value>
+	</dependency>
+	<dependency>
+		<name>IBLOCK_ID</name>
+		<value>ibl-ibl-422424-5929d5-74e661-6446</value>
+	</dependency>
+	<field>
+		<name>PERMISSION</name>
+		<value>X</value>
+	</field>
+</data>

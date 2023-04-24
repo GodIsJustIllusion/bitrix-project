@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___NEW_USER_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_USER_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Подтверждение регистрации нового пользователя</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+
+#USER_ID# - ID пользователя
+#LOGIN# - Логин
+#EMAIL# - EMail
+#NAME# - Имя
+#LAST_NAME# - Фамилия
+#USER_IP# - IP пользователя
+#USER_HOST# - Хост пользователя
+#CONFIRM_CODE# - Код подтверждения
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>3</value>
+	</field>
+</data>

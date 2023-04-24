@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>measure_163</xml_id>
+	<field>
+		<name>CODE</name>
+		<value>163</value>
+	</field>
+	<field>
+		<name>MEASURE_TITLE</name>
+		<value>Грамм</value>
+	</field>
+	<field>
+		<name>SYMBOL_RUS</name>
+		<value>г</value>
+	</field>
+	<field>
+		<name>SYMBOL_INTL</name>
+		<value>g</value>
+	</field>
+	<field>
+		<name>SYMBOL_LETTER_INTL</name>
+		<value>GRM</value>
+	</field>
+	<field>
+		<name>IS_DEFAULT</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SYMBOL</name>
+		<value>г</value>
+	</field>
+</data>

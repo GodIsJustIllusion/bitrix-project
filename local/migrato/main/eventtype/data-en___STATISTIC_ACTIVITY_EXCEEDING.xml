@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___STATISTIC_ACTIVITY_EXCEEDING</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>STATISTIC_ACTIVITY_EXCEEDING</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Visitor activity limit exceeded</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ACTIVITY_TIME_LIMIT# - test time period (sec.)
+#ACTIVITY_HITS# - number of hits for test period
+#ACTIVITY_HITS_LIMIT# - max number of hits for test period
+#ACTIVITY_EXCEEDING# - activity exceeding
+#CURRENT_TIME# - time of blocking (server time)
+#DELAY_TIME# - period of blocking
+#USER_AGENT# - UserAgent
+#SESSION_ID# - session ID
+#SESSION_LINK# - link to the session report
+#SERACHER_ID# - search engine ID
+#SEARCHER_NAME# - search engine name
+#SEARCHER_LINK# - link to search engine hit list
+#VISITOR_ID# - visitor ID
+#VISITOR_LINK# - link to the visitor profile
+#STOPLIST_LINK# - link for adding the visitor to the stop-list</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

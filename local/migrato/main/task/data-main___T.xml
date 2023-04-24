@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>main___T</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>main_view_all_settings_change_profile</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>main</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>T</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Просмотр всех данных модуля и изменение своего профиля</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Разрешено изменение своего профиля и просмотр всех настроек модуля без внесения изменений</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_own_profile</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>edit_own_profile</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_all_users</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_groups</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_tasks</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_other_settings</value>
+	</field>
+</data>

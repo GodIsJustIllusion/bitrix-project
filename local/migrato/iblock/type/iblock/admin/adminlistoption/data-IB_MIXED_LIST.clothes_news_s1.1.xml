@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>IB_MIXED_LIST.clothes_news_s1.1</xml_id>
+	<dependency>
+		<name>IBLOCK</name>
+		<value>clothes_news_s1</value>
+	</dependency>
+	<field>
+		<name>COMMON</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>CATEGORY</name>
+		<value>main.interface.grid</value>
+	</field>
+	<field>
+		<name>VALUE</name>
+		<value>a:3:{s:5:&quot;views&quot;;a:1:{s:7:&quot;default&quot;;a:3:{s:7:&quot;columns&quot;;s:0:&quot;&quot;;s:13:&quot;columns_sizes&quot;;a:2:{s:6:&quot;expand&quot;;i:1;s:7:&quot;columns&quot;;a:0:{}}s:15:&quot;sticked_columns&quot;;a:0:{}}}s:7:&quot;filters&quot;;a:0:{}s:12:&quot;current_view&quot;;s:7:&quot;default&quot;;}</value>
+	</field>
+</data>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___NEW_FORUM_MESSAGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_FORUM_MESSAGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Новое сообщение на форуме</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+			#FORUM_ID# - ID форума
+			#FORUM_NAME# - Название форума
+			#TOPIC_ID# - ID темы
+			#MESSAGE_ID# - ID сообщения
+			#TOPIC_TITLE# - Тема сообщения
+			#MESSAGE_TEXT# - Текст сообщения
+			#MESSAGE_DATE# - Дата сообщения
+			#AUTHOR# - Автор сообщения
+			#RECIPIENT# - Получатель сообщения
+			#TAPPROVED# - Тема сообщения показывается
+			#MAPPROVED# - Тело сообщения показывается
+			#PATH2FORUM# - Адрес сообщения
+			#FROM_EMAIL# - E-Mail для поля From письма</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

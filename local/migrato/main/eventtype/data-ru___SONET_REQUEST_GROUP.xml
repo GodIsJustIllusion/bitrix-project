@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SONET_REQUEST_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_REQUEST_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Запрос на вступление в группу</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#MESSAGE_ID# - ID сообщения
+#USER_ID# - ID получателя запроса
+#USER_NAME# - Имя получателя запроса
+#USER_LAST_NAME# - Фамилия получателя запроса
+#SENDER_ID# - ID отправителя запроса
+#SENDER_NAME# - Имя отправителя запроса
+#SENDER_LAST_NAME# - Фамилия отправителя запроса
+#TITLE# - Заголовок
+#MESSAGE# - Сообщение
+#EMAIL_TO# - Email получателя письма</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

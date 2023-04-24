@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___ADV_BANNER_STATUS_CHANGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADV_BANNER_STATUS_CHANGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Изменился статус баннера</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL_TO# - EMail получателя сообщения (#OWNER_EMAIL#)
+#ADMIN_EMAIL# - EMail пользователей имеющих роль &quot;менеджер баннеров&quot; и &quot;администратор&quot;
+#ADD_EMAIL# - EMail пользователей имеющих право управления баннерами контракта
+#STAT_EMAIL# - EMail пользователей имеющих право просмотра баннеров конракта
+#EDIT_EMAIL# - EMail пользователей имеющих право модификации некоторых полей контракта
+#OWNER_EMAIL# - EMail пользователей имеющих какое либо право на контракт
+#BCC# - скрытая копия (#ADMIN_EMAIL#)
+#ID# - ID баннера
+#CONTRACT_ID# - ID контракта
+#CONTRACT_NAME# - заголовок контракта
+#TYPE_SID# - ID типа
+#TYPE_NAME# - заголовок типа
+#STATUS# - статус
+#STATUS_COMMENTS# - комментарий к статусу
+#NAME# - заголовок баннера
+#GROUP_SID# - группа баннера
+#INDICATOR# - показывается ли баннер на сайте ?
+#ACTIVE# - флаг активности баннера [Y | N]
+#MAX_SHOW_COUNT# - максимальное количество показов баннера
+#SHOW_COUNT# - сколько раз баннер был показан на сайте
+#MAX_CLICK_COUNT# - максимальное количество кликов на баннер
+#CLICK_COUNT# - сколько раз кликнули на баннер
+#DATE_LAST_SHOW# - дата последнего показа баннера
+#DATE_LAST_CLICK# - дата последнего клика на баннер
+#DATE_SHOW_FROM# - дата начала показа баннера
+#DATE_SHOW_TO# - дата окончания показа баннера
+#IMAGE_LINK# - ссылка на изображение баннера
+#IMAGE_ALT# - текст всплывающей подсказки на изображении
+#URL# - URL на изображении
+#URL_TARGET# - где развернуть URL изображения
+#CODE# - код баннера
+#CODE_TYPE# - тип кода баннера (text | html)
+#COMMENTS# - комментарий к баннеру
+#DATE_CREATE# - дата создания баннера
+#CREATED_BY# - кем был создан баннер
+#DATE_MODIFY# - дата изменения баннера
+#MODIFIED_BY# - кем изменен баннер
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

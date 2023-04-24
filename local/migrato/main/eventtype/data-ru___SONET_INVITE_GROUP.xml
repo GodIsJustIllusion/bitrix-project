@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SONET_INVITE_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_INVITE_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Приглашение присоединиться к группе</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#RELATION_ID# - ID связи
+#GROUP_ID# - ID группы
+#USER_ID# - ID пользователя
+#GROUP_NAME# - Название группы
+#USER_NAME# - Имя пользователя
+#USER_LAST_NAME# - Фамилия пользователя
+#USER_EMAIL# - Email пользователя
+#INITIATED_USER_NAME# - Имя пользователя, отправившего приглашение
+#INITIATED_USER_LAST_NAME# - Фамилия пользователя, отправившего приглашение
+#URL# - Путь к странице сообщений пользователя
+#MESSAGE# - Сообщение</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

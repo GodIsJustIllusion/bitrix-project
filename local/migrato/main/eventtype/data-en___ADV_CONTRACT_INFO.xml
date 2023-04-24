@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___ADV_CONTRACT_INFO</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADV_CONTRACT_INFO</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Advertising contract settings</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - contract ID
+#MESSAGE# - message
+#EMAIL_TO# - EMail of message receiver
+#ADMIN_EMAIL# - EMail of the users with &quot;banners manager&quot; and &quot;administrator&quot; roles
+#ADD_EMAIL# - EMail of banner managers
+#STAT_EMAIL# - EMail of users who have permissions to view banner statistics
+#EDIT_EMAIL# - EMail of users who have permissions to modify some contract fields
+#OWNER_EMAIL# - EMail of users who have any permissions on contract
+#BCC# - copy
+#INDICATOR# - is contract banners shown on the site ?
+#ACTIVE# - contract activity flag [Y | N]
+#NAME# - contract title
+#DESCRIPTION# - contract description
+#MAX_SHOW_COUNT# - max number of all contract banners shows
+#SHOW_COUNT# - number of all contract banners shows
+#MAX_CLICK_COUNT# - max number of all contract banners clicks
+#CLICK_COUNT# - number of all contract banners clicks
+#BANNERS# - number of contract banners
+#DATE_SHOW_FROM# - start date of banner showing period
+#DATE_SHOW_TO# - end date of banner showing period
+#DATE_CREATE# - contract creation date
+#CREATED_BY# - contract creator
+#DATE_MODIFY# - contract modification date
+#MODIFIED_BY# - who has modified the contract
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

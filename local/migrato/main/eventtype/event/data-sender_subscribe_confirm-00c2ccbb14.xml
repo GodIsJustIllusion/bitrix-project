@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>sender_subscribe_confirm-00c2ccbb14</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___SENDER_SUBSCRIBE_CONFIRM</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#DEFAULT_EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#EMAIL#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: Подтверждение подписки</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>Информационное сообщение сайта #SITE_NAME#
+------------------------------------------
+
+Здравствуйте,
+
+Вы получили это сообщение, так как ваш адрес был подписан
+на список рассылки сервера #SERVER_NAME#.
+
+Дополнительная информация о подписке:
+
+Адрес подписки (email) ............ #EMAIL#
+Дата добавления/редактирования .... #DATE#
+Список рассылок:
+#MAILING_LIST#
+
+
+Для подтверждения подписки перейдите по следующей ссылке:
+http://#SERVER_NAME##CONFIRM_URL#
+
+
+Внимание! Вы не будете получать сообщения рассылки, пока не подтвердите
+свою подписку.
+Если вы не подписывались на рассылку и получили это письмо по ошибке,
+проигнорируйте его.
+
+Сообщение сгенерировано автоматически.
+</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>text</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value/>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>b333d8-e0fc2f-81c27e-a33b1d-a38ffc-d1</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>ALL-USERS</value>
+	</dependency>
+	<field>
+		<name>DIR</name>
+		<value>C:/OSPanel/domains/bitrix.loc/desktop_app/login</value>
+	</field>
+	<field>
+		<name>PATH</name>
+		<value>qr.php</value>
+	</field>
+	<field>
+		<name>PERMISSION</name>
+		<value>R</value>
+	</field>
+</data>

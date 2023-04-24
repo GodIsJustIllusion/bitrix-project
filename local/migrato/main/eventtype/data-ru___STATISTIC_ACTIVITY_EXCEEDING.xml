@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___STATISTIC_ACTIVITY_EXCEEDING</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>STATISTIC_ACTIVITY_EXCEEDING</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Превышение лимита активности</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ACTIVITY_TIME_LIMIT# - тестовый интервал времени
+#ACTIVITY_HITS# - кол-во хитов за тестовый интервал времени
+#ACTIVITY_HITS_LIMIT# - максимальное кол-во хитов за тестовый интервал времени (лимит активности)
+#ACTIVITY_EXCEEDING# - превышение кол-ва хитов
+#CURRENT_TIME# - момент блокировки (время на сервере)
+#DELAY_TIME# - длительность блокировки
+#USER_AGENT# - UserAgent
+#SESSION_ID# - ID сессии
+#SESSION_LINK# - ссылка на сессию
+#SERACHER_ID# - ID поисковика
+#SEARCHER_NAME# - наименование поисковика
+#SEARCHER_LINK# - ссылка на список хитов поисковика
+#VISITOR_ID# - ID посетителя
+#VISITOR_LINK# - ссылка на профайл посетителя
+#STOPLIST_LINK# - ссылка для добавления посетителя в стоп-лист
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

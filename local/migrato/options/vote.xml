@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>VOTE_COMPATIBLE_OLD_TEMPLATE</name>
+		<value>N</value>
+		<site/>
+	</option>
+	<option>
+		<name>VOTE_DIR</name>
+		<value/>
+		<site/>
+	</option>
+</options>

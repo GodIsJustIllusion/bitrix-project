@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___NEW_FORUM_MESSAGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_FORUM_MESSAGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New forum message</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+			#FORUM_ID# - Forum ID
+			#FORUM_NAME# - Forum name
+			#TOPIC_ID# - Topic ID
+			#MESSAGE_ID# - Message ID
+			#TOPIC_TITLE# - Topic title
+			#MESSAGE_TEXT# - Message text
+			#MESSAGE_DATE# - Message date
+			#AUTHOR# - Message author
+			#RECIPIENT# - E-Mail recipient
+			#TAPPROVED# - Message topic is approved
+			#MAPPROVED# - Message is approved
+			#PATH2FORUM# - Message Url
+			#FROM_EMAIL# - E-Mail for From field of the EMail</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

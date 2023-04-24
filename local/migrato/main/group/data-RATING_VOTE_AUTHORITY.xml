@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>RATING_VOTE_AUTHORITY</xml_id>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Пользователи имеющие право голосовать за авторитет</value>
+	</field>
+	<field>
+		<name>C_SORT</name>
+		<value>4</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>В эту группу пользователи добавляются автоматически.</value>
+	</field>
+	<field>
+		<name>STRING_ID</name>
+		<value>RATING_VOTE_AUTHORITY</value>
+	</field>
+</data>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___ADD_IDEA</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADD_IDEA</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New idea added</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#FULL_PATH# - Idea full path
+#TITLE# - Idea title
+#AUTHOR# - Idea author
+#IDEA_TEXT# - Idea text
+#DATE_PUBLISH# - Date and time idea was created
+#EMAIL_TO# - Subscriber e-mail
+#CATEGORY# - Category</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

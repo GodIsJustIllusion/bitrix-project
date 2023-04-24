@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>highloadblock___W</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>hblock_write</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>highloadblock</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>W</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Запись</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Разрешен доступ на запись к highload-блоку.</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>hl_element_write</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>hl_element_delete</value>
+	</field>
+</data>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>BASE</xml_id>
+	<dependency>
+		<name>USER_GROUP[]</name>
+		<value>ADMINS</value>
+	</dependency>
+	<dependency>
+		<name>USER_GROUP[]</name>
+		<value>ALL-USERS</value>
+	</dependency>
+	<dependency>
+		<name>USER_GROUP_BUY[]</name>
+		<value>ADMINS</value>
+	</dependency>
+	<dependency>
+		<name>USER_GROUP_BUY[]</name>
+		<value>ALL-USERS</value>
+	</dependency>
+	<field>
+		<name>NAME</name>
+		<value>BASE</value>
+	</field>
+	<field>
+		<name>BASE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+	<field>
+		<name>USER_LANG.en</name>
+		<value>Retail price</value>
+	</field>
+	<field>
+		<name>USER_LANG.ru</name>
+		<value>Розничная цена</value>
+	</field>
+</data>

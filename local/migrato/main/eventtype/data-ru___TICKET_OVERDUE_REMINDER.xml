@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___TICKET_OVERDUE_REMINDER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>TICKET_OVERDUE_REMINDER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Напоминание о необходимости ответа (для техподдержки)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#ID# - ID обращения
+#LANGUAGE_ID# - идентификатор языка сайта к которому привязано обращение
+#DATE_CREATE# - дата создания 
+#TITLE# - заголовок обращения
+#STATUS# - статус обращения
+#CATEGORY# - категория обращения
+#CRITICALITY# - критичность обращения
+#RATE# - оценка ответов
+#SLA# - уровень техподдержки
+#SOURCE# - первоначальный источник обращения (web, email, телефон и т.д.)
+#ADMIN_EDIT_URL# - ссылка для изменения обращения (в административную часть)
+
+#EXPIRATION_DATE# - дата истечения времени реакции
+#REMAINED_TIME# - сколько осталось до даты истечения времени реакции
+
+#OWNER_EMAIL# - #OWNER_USER_EMAIL# и/или #OWNER_SID#
+#OWNER_USER_ID# - ID автора обращения
+#OWNER_USER_NAME# - имя автора обращения
+#OWNER_USER_LOGIN# - логин автора обращения
+#OWNER_USER_EMAIL# - email автора обращения
+#OWNER_TEXT# - [#OWNER_USER_ID#] (#OWNER_USER_LOGIN#) #OWNER_USER_NAME#
+#OWNER_SID# - произвольный идентификатор автора обращения (email, телефон и т.п.)
+
+#SUPPORT_EMAIL# - #RESPONSIBLE_USER_EMAIL# или #SUPPORT_ADMIN_EMAIL#
+#RESPONSIBLE_USER_ID# - ID ответственного за обращение
+#RESPONSIBLE_USER_NAME# - имя ответственного за обращение
+#RESPONSIBLE_USER_LOGIN# - логин ответственного за обращение
+#RESPONSIBLE_USER_EMAIL# - email ответственного за обращение
+#RESPONSIBLE_TEXT# - [#RESPONSIBLE_USER_ID#] (#RESPONSIBLE_USER_LOGIN#) #RESPONSIBLE_USER_NAME#
+#SUPPORT_ADMIN_EMAIL# - EMail администраторов техподдержки
+
+#CREATED_USER_ID# - ID создателя обращения
+#CREATED_USER_LOGIN# - логин создателя обращения
+#CREATED_USER_EMAIL# - email создателя обращения
+#CREATED_USER_NAME# - имя создателя обращения
+#CREATED_MODULE_NAME# - идентификатор модуля средствами которого было создан обращение
+#CREATED_TEXT# - [#CREATED_USER_ID#] (#CREATED_USER_LOGIN#) #CREATED_USER_NAME#
+
+#MESSAGE_BODY# - текст сообщения клиента требующее ответа
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

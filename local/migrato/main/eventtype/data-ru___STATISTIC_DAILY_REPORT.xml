@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___STATISTIC_DAILY_REPORT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>STATISTIC_DAILY_REPORT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Ежедневная статистика сайта</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL_TO# - email администратора сайта
+#SERVER_TIME# - время на сервере в момент отсылки отчета
+#HTML_HEADER# - открытие тэга HTML + CSS стили
+#HTML_COMMON# - таблица посещаемости сайта (хиты, сессии, хосты, посетители, события) (HTML)
+#HTML_ADV# - таблица рекламных кампаний (TOP 10) (HTML)
+#HTML_EVENTS# - таблица типов событий (TOP 10) (HTML)
+#HTML_REFERERS# - таблица ссылающихся сайтов (TOP 10) (HTML)
+#HTML_PHRASES# - таблица поисковых фраз (TOP 10) (HTML)
+#HTML_SEARCHERS# - таблица индексации сайта (TOP 10) (HTML)
+#HTML_FOOTER# - закрытие тэга HTML
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>s1</xml_id>
+	<dependency>
+		<name>CULTURE</name>
+		<value>ru</value>
+	</dependency>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>SORT</name>
+		<value>1</value>
+	</field>
+	<field>
+		<name>DEF</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Интернет-магазин (Сайт по умолчанию)</value>
+	</field>
+	<field>
+		<name>DIR</name>
+		<value>/</value>
+	</field>
+	<field>
+		<name>DOMAIN_LIMITED</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SITE_NAME</name>
+		<value>Современная Одежда+</value>
+	</field>
+</data>

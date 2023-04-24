@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SALE_NEW_ORDER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_NEW_ORDER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New order</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ORDER_ID# - order ID
+#ORDER_ACCOUNT_NUMBER_ENCODE# - order ID (for URL's)
+#ORDER_REAL_ID# - real order ID
+#ORDER_DATE# - order date
+#ORDER_USER# - customer
+#PRICE# - order amount
+#EMAIL# - customer e-mail
+#BCC# - BCC e-mail
+#ORDER_LIST# - order contents
+#ORDER_PUBLIC_URL# - order view link for unauthorized users (requires configuration in the e-Store module settings)
+#SALE_EMAIL# - sales dept. e-mail</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

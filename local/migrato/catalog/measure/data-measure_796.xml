@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>measure_796</xml_id>
+	<field>
+		<name>CODE</name>
+		<value>796</value>
+	</field>
+	<field>
+		<name>MEASURE_TITLE</name>
+		<value>Штука</value>
+	</field>
+	<field>
+		<name>SYMBOL_RUS</name>
+		<value>шт</value>
+	</field>
+	<field>
+		<name>SYMBOL_INTL</name>
+		<value>pc. 1</value>
+	</field>
+	<field>
+		<name>SYMBOL_LETTER_INTL</name>
+		<value>PCE. NMB</value>
+	</field>
+	<field>
+		<name>IS_DEFAULT</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>SYMBOL</name>
+		<value>шт</value>
+	</field>
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___BLOG_POST_BROADCAST</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>BLOG_POST_BROADCAST</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New post added</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#MESSAGE_TITLE# - Post subject
+#MESSAGE_TEXT# - Post text 
+#MESSAGE_PATH# - Post URL
+#AUTHOR# - Post author
+#EMAIL_TO# - E-mail recipient</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

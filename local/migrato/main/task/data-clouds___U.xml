@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>clouds___U</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>clouds_upload</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>clouds</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>U</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Перемещение файлов</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Перемещение файлов в облачные хранилища из структуры сайта и выгрузка новых</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>clouds_browse</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>clouds_upload</value>
+	</field>
+</data>

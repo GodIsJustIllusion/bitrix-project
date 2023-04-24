@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>sale_administrator</xml_id>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Администраторы интернет-магазина</value>
+	</field>
+	<field>
+		<name>C_SORT</name>
+		<value>200</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Полный доступ к управлению интернет-магазином (в т.ч. заказами) и параметрами торгового каталога (типами цен, наценками, скидками и т.д.).</value>
+	</field>
+	<field>
+		<name>STRING_ID</name>
+		<value>sale_administrator</value>
+	</field>
+</data>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>main___Q</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>Администраторы интернет-магазина</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Полный доступ к управлению интернет-магазином (в т.ч. заказами) и параметрами торгового каталога (типами цен, наценками, скидками и т.д.).</value>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>main</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>Q</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Администраторы интернет-магазина</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Полный доступ к управлению интернет-магазином (в т.ч. заказами) и параметрами торгового каталога (типами цен, наценками, скидками и т.д.).</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>view_own_profile</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>edit_own_profile</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>cache_control</value>
+	</field>
+</data>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ticket_change_by_author_for_author-953fe32f63</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___TICKET_CHANGE_BY_AUTHOR_FOR_AUTHOR</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#DEFAULT_EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#OWNER_EMAIL#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>[TID##ID#] #SERVER_NAME#: Изменения в вашем обращении</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>Изменения в вашем обращении # #ID# на сайте #SERVER_NAME#.
+
+#WHAT_CHANGE#
+Тема: #TITLE# 
+
+От кого: #MESSAGE_SOURCE##MESSAGE_AUTHOR_SID##MESSAGE_AUTHOR_TEXT#
+
+&gt;======================= СООБЩЕНИЕ ===================================#FILES_LINKS##MESSAGE_BODY#
+&gt;=====================================================================
+
+Автор    - #SOURCE##OWNER_SID##OWNER_TEXT#
+Создано  - #CREATED_TEXT##CREATED_MODULE_NAME# [#DATE_CREATE#]
+Изменено - #MODIFIED_TEXT##MODIFIED_MODULE_NAME# [#TIMESTAMP#]
+
+Ответственный     - #RESPONSIBLE_TEXT#
+Категория         - #CATEGORY#
+Критичность       - #CRITICALITY#
+Статус            - #STATUS#
+Оценка ответов    - #RATE#
+Уровень поддержки - #SLA#
+
+Для просмотра и редактирования обращения воспользуйтесь ссылкой:
+http://#SERVER_NAME##PUBLIC_EDIT_URL#?ID=#ID#
+
+Мы просим Вас не забыть оценить ответы службы техподдержки после закрытия обращения:
+http://#SERVER_NAME##PUBLIC_EDIT_URL#?ID=#ID#
+
+Письмо сгенерировано автоматически.
+</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>text</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value/>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SENDER_SUBSCRIBE_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SENDER_SUBSCRIBE_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Confirm subscription</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL# - subscription URL
+#DATE# - the date the address was added or updated
+#CONFIRM_URL# - confirmation URL
+#MAILING_LIST# - subscriptions
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

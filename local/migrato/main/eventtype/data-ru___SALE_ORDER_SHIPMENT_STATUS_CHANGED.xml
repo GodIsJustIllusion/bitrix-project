@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SALE_ORDER_SHIPMENT_STATUS_CHANGED</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_ORDER_SHIPMENT_STATUS_CHANGED</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Уведомление об изменении статуса почтового отправления</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#SHIPMENT_NO# - номер отгрузки
+#SHIPMENT_DATE# - дата отгрузки
+#ORDER_NO# - номер заказа
+#ORDER_DATE# - дата заказа
+#STATUS_NAME# - название статуса
+#STATUS_DESCRIPTION# - описание статуса
+#TRACKING_NUMBER# - идентификатор почтового отправления
+#EMAIL# - кому будет отправлено письмо
+#BCC# - кому будет отправлена копия письма
+#ORDER_USER# - заказчик
+#DELIVERY_NAME# - наименование службы доставки
+#DELIVERY_TRACKING_URL# - ссылка на сайте службы доставке, где можно подробнее узнать о статусе отправления
+#ORDER_ACCOUNT_NUMBER_ENCODE# - код заказа(для ссылок)
+#ORDER_PUBLIC_URL# - ссылка для просмотра заказа без авторизации (требуется настройка в модуле интернет-магазина)
+#ORDER_DETAIL_URL# - ссылка для просмотра подробной информации о заказе</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

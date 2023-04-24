@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>clothes_offers_s1.ibl-prop-248853-509759-b5e661-6446.a11f96c3b88d222460d9796067d28b0c</xml_id>
+	<dependency>
+		<name>PROPERTY_ID</name>
+		<value>clothes_offers_s1.ibl-prop-248853-509759-b5e661-6446</value>
+	</dependency>
+	<field>
+		<name>VALUE</name>
+		<value>XS</value>
+	</field>
+	<field>
+		<name>DEF</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___NEW_LEARNING_TEXT_ANSWER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_LEARNING_TEXT_ANSWER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New Text Answer</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - The result ID
+#ATTEMPT_ID# - The attempt ID
+#TEST_NAME# - The test name
+#USER# - The user taking a test
+#DATE# - The date and time
+#QUESTION_TEXT# - The question
+#ANSWER_TEXT# - The answer
+#EMAIL_FROM# - The sender's e-mail address
+#EMAIL_TO# - The recipient's e-mail address
+#MESSAGE_TITLE# - The e-mail message subject</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

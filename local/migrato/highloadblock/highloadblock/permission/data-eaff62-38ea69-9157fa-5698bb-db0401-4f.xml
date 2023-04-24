@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>eaff62-38ea69-9157fa-5698bb-db0401-4f</xml_id>
+	<dependency>
+		<name>GROUP_ID</name>
+		<value>ALL-USERS</value>
+	</dependency>
+	<dependency>
+		<name>HL_ID</name>
+		<value>b_hlsys_marking_code_group</value>
+	</dependency>
+	<field>
+		<name>PERMISSION</name>
+		<value>hblock_read</value>
+	</field>
+</data>

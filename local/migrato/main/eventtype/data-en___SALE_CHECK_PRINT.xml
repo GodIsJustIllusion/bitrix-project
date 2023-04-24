@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SALE_CHECK_PRINT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_CHECK_PRINT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Receipt printout notification</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ORDER_ID# - order ID
+#ORDER_DATE# - order date
+#ORDER_USER# - customer
+#ORDER_ACCOUNT_NUMBER_ENCODE# - order Id for use in links
+#ORDER_PUBLIC_URL# - order view link for unauthorized users (requires configuration in the e-Store module settings)
+#CHECK_LINK# - receipt link</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

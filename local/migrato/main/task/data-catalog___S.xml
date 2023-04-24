@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>catalog___S</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>catalog_store_edit</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>catalog</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>S</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Управление складом</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Управление количеством товара на складе, просмотр закупочной цены товаров Торгового каталога</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>catalog_read</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>catalog_price</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>catalog_extra</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>catalog_store</value>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>catalog_purchas_info</value>
+	</field>
+</data>

@@ -1,0 +1,26 @@
+	.soc {
+		display: flex;
+		gap: 8px;
+		padding: 8px;
+		/* width: max-content; */
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+	.soc__item {
+		width: 40px;
+		height: 40px;
+	}
+	.soc__link {
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+	.soc__icon {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.soc__icon:hover {
+		opacity: .8;
+	}

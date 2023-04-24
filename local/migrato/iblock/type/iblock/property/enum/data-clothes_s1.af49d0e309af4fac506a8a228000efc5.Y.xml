@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>clothes_s1.af49d0e309af4fac506a8a228000efc5.Y</xml_id>
+	<dependency>
+		<name>PROPERTY_ID</name>
+		<value>clothes_s1.af49d0e309af4fac506a8a228000efc5</value>
+	</dependency>
+	<field>
+		<name>VALUE</name>
+		<value>да</value>
+	</field>
+	<field>
+		<name>DEF</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>500</value>
+	</field>
+</data>

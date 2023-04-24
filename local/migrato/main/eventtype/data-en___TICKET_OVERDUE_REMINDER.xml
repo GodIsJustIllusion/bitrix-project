@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___TICKET_OVERDUE_REMINDER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>TICKET_OVERDUE_REMINDER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Reminder of answer necessity (for techsupport)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#ID# - ticket ID
+#LANGUAGE_ID# - site language identifier to which trouble ticket is linked
+#DATE_CREATE# - date of creation 
+#TITLE# - ticket title
+#STATUS# - ticket status
+#CATEGORY# - ticket category
+#CRITICALITY# - ticket priority
+#RATE# - answers rate
+#SLA# - support level
+#SOURCE# - initial ticket source (web, email, phone etc.)
+#ADMIN_EDIT_URL# - link to changing the ticket (administrative section)
+
+#EXPIRATION_DATE# - date of response expiration
+#REMAINED_TIME# - how much is left till the date of response expiration
+
+#OWNER_EMAIL# - #OWNER_USER_EMAIL# and/or #OWNER_SID#
+#OWNER_USER_ID# - ticket author ID
+#OWNER_USER_NAME# - ticket author name
+#OWNER_USER_LOGIN# - ticket author login
+#OWNER_USER_EMAIL# - ticket author email
+#OWNER_TEXT# - [#OWNER_USER_ID#] (#OWNER_USER_LOGIN#) #OWNER_USER_NAME#
+#OWNER_SID# - some identifier of the ticket author (such as email, phone and the like)
+
+#SUPPORT_EMAIL# - #RESPONSIBLE_USER_EMAIL# or #SUPPORT_ADMIN_EMAIL#
+#RESPONSIBLE_USER_NAME# - full name of the person in charge
+#RESPONSIBLE_USER_ID# - user ID of the person in charge
+#RESPONSIBLE_USER_EMAIL# - email of the person in charge
+#RESPONSIBLE_USER_LOGIN# - login of the person in charge
+#RESPONSIBLE_TEXT# - [#RESPONSIBLE_USER_ID#] (#RESPONSIBLE_USER_LOGIN#) #RESPONSIBLE_USER_NAME#
+#SUPPORT_ADMIN_EMAIL# - EMails of support administrators
+
+#CREATED_USER_ID# - ticket creator ID
+#CREATED_USER_LOGIN# - ticket creator login
+#CREATED_USER_EMAIL# - ticket creator email
+#CREATED_USER_NAME# - ticket creator name
+#CREATED_MODULE_NAME# - identifier of the module that was used for creating the ticket
+#CREATED_TEXT# - [#CREATED_USER_ID#] (#CREATED_USER_LOGIN#) #CREATED_USER_NAME#
+
+#MESSAGE_BODY# - body of the message which requires an answer
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

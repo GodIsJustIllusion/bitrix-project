@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___VOTE_FOR</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>VOTE_FOR</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Новый голос</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID результата голосования
+#TIME# - время голосования
+#VOTE_TITLE# - наименование опроса
+#VOTE_DESCRIPTION# - описание опроса
+#VOTE_ID# - ID опроса
+#CHANNEL# - наименование группы опроса
+#CHANNEL_ID# - ID группы опроса
+#VOTER_ID# - ID проголосовавшего посетителя
+#USER_NAME# - ФИО пользователя
+#LOGIN# - логин
+#USER_ID# - ID пользователя
+#STAT_GUEST_ID# - ID посетителя модуля статистики
+#SESSION_ID# - ID сессии модуля статистики
+#IP# - IP адрес
+#VOTE_STATISTIC# - Сводная статистика опроса типа ( - Вопрос - Ответ )
+#URL# - Путь к опросу
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

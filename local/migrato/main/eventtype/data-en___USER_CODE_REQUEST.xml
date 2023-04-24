@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___USER_CODE_REQUEST</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>USER_CODE_REQUEST</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Request for verification code</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_ID# - user ID
+#STATUS# - Login status
+#LOGIN# - Login
+#CHECKWORD# - Verification code
+#NAME# - First name
+#LAST_NAME# - Last name
+#EMAIL# - User email
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>10</value>
+	</field>
+</data>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SONET_INVITE_FRIEND</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_INVITE_FRIEND</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Invitation to Join Friends</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#RELATION_ID# - Relation ID
+#SENDER_USER_ID# - Sender ID
+#SENDER_USER_NAME# - Sender first name
+#SENDER_USER_LAST_NAME# - Sender last name
+#SENDER_EMAIL_TO# - Sender e-mail address
+#RECIPIENT_USER_ID# - Recipient ID
+#RECIPIENT_USER_NAME# - Recipient first name
+#RECIPIENT_USER_LAST_NAME# - Recipient last name
+#RECIPIENT_USER_EMAIL_TO# - Recipient e-mail address
+#MESSAGE# - Message body</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

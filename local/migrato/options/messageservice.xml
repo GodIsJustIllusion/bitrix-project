@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>clean_up_period</name>
+		<value>14</value>
+		<site/>
+	</option>
+</options>

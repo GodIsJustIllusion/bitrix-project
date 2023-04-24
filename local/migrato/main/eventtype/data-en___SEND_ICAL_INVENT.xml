@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SEND_ICAL_INVENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SEND_ICAL_INVENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Send invitation to user  </value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#DATE_START# - start time
+#DATE_END# - end time
+#MESSAGE# - text message
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>1</value>
+	</field>
+</data>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>eshop_color_reference</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>ColorReference</value>
+	</field>
+	<field>
+		<name>TABLE_NAME</name>
+		<value>eshop_color_reference</value>
+	</field>
+</data>

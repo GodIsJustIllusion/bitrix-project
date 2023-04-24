@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___NEW_LEARNING_TEXT_ANSWER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_LEARNING_TEXT_ANSWER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Новый текстовый ответ</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID результата
+#ATTEMPT_ID# - ID попытки
+#TEST_NAME# - Название теста
+#USER# - Пользователь, ответивший на вопрос
+#DATE# - Дата и время
+#QUESTION_TEXT# - Вопрос
+#ANSWER_TEXT# - Ответ
+#EMAIL_FROM# - Email отправителя письма
+#EMAIL_TO# - Email получателя письма
+#MESSAGE_TITLE# - Заголовок сообщения</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

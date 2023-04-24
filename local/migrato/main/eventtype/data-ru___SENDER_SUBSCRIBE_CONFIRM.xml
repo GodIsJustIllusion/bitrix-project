@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SENDER_SUBSCRIBE_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SENDER_SUBSCRIBE_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Подтверждение подписки</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL# - адрес подписки
+#DATE# - дата добавления/изменения адреса
+#CONFIRM_URL# - адрес подтверждения
+#MAILING_LIST# - список подписок
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

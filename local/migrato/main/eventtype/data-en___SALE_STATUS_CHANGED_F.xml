@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SALE_STATUS_CHANGED_F</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_STATUS_CHANGED_F</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Changing order status to &quot;&quot;</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ORDER_ID# - order ID
+#ORDER_DATE# - order date
+#ORDER_STATUS# - order status
+#EMAIL# - customer e-mail
+#ORDER_DESCRIPTION# - order status description
+#TEXT# - text
+#SALE_EMAIL# - Sales department e-mail
+#ORDER_PUBLIC_URL# - order view link for unauthorized users (requires configuration in the e-Store module settings)
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

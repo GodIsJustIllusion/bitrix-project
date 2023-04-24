@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___NEW_USER_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_USER_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New user registration confirmation</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+#USER_ID# - User ID
+#LOGIN# - Login
+#EMAIL# - E-mail
+#NAME# - First name
+#LAST_NAME# - Last name
+#USER_IP# - User IP
+#USER_HOST# - User host
+#CONFIRM_CODE# - Confirmation code
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>3</value>
+	</field>
+</data>

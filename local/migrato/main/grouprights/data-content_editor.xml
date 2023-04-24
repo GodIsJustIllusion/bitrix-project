@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>content_editor</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>content_editor</value>
+	</dependency>
+	<dependency>
+		<name>TASK[]</name>
+		<value>fileman___F</value>
+	</dependency>
+	<dependency>
+		<name>TASK[]</name>
+		<value>main___P</value>
+	</dependency>
+</data>

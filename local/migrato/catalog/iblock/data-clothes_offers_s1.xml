@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>clothes_offers_s1</xml_id>
+	<dependency>
+		<name>IBLOCK_ID</name>
+		<value>clothes_offers_s1</value>
+	</dependency>
+	<dependency>
+		<name>PRODUCT_IBLOCK_ID</name>
+		<value>clothes_s1</value>
+	</dependency>
+	<dependency>
+		<name>SKU_PROPERTY_ID</name>
+		<value>clothes_offers_s1.CML2_LINK</value>
+	</dependency>
+	<field>
+		<name>YANDEX_EXPORT</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SUBSCRIPTION</name>
+		<value>N</value>
+	</field>
+</data>

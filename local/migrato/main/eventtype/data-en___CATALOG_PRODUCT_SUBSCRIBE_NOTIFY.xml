@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___CATALOG_PRODUCT_SUBSCRIBE_NOTIFY</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>CATALOG_PRODUCT_SUBSCRIBE_NOTIFY</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Уведомление о поступлении товара</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_NAME# - имя пользователя
+#EMAIL_TO# - email пользователя
+#NAME# - название товара
+#PAGE_URL# - детальная страница товара
+#CHECKOUT_URL# - добавление товара в корзину
+#CHECKOUT_URL_PARAMETERS# - параметры ссылки добавления товара в корзину
+#PRODUCT_ID# - id товара для формирования ссылок
+#UNSUBSCRIBE_URL# - ссылка отписки от товара
+#UNSUBSCRIBE_URL_PARAMETERS# - параметры ссылки отписки от товара
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___NEW_FORUM_PRIVATE_MESSAGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_FORUM_PRIVATE_MESSAGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Приватное сообщение</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+			#FROM_NAME# - Имя автора сообщения
+			#FROM_USER_ID# - ID автора сообщения
+			#FROM_EMAIL# - E-Mail автора сообщения
+			#TO_NAME# - Имя получателя сообщения
+			#TO_USER_ID# - ID получателя сообщения
+			#TO_EMAIL# - E-Mail получателя сообщения
+			#SUBJECT# - Тема сообщения
+			#MESSAGE# - Текст сообщения
+			#MESSAGE_DATE# - Дата сообщения
+			#MESSAGE_LINK# - Ссылка на сообщение</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

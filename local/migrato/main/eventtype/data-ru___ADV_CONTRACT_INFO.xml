@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___ADV_CONTRACT_INFO</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADV_CONTRACT_INFO</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Параметры рекламного контракта</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#MESSAGE# - сообщение
+#EMAIL_TO# - EMail получателя сообщения (#OWNER_EMAIL#)
+#ADMIN_EMAIL# - EMail пользователей имеющих роль &quot;менеджер баннеров&quot; и &quot;администратор&quot;
+#ADD_EMAIL# - EMail пользователей имеющих право управления баннерами контракта
+#STAT_EMAIL# - EMail пользователей имеющих право просмотра статистики баннеров конракта
+#EDIT_EMAIL# - EMail пользователей имеющих право модификации некоторых полей контракта
+#OWNER_EMAIL# - EMail пользователей имеющих какое либо право на контракт
+#BCC# - скрытая копия (#ADD_EMAIL#)
+#ID# - ID контракта
+#INDICATOR# - показываются ли баннеры контракта на сайте ?
+#ACTIVE# - флаг активности контракта [Y | N]
+#NAME# - заголовок контракта
+#DESCRIPTION# - описание контракта
+#MAX_SHOW_COUNT# - максимальное количество показов всех баннеров контракта
+#SHOW_COUNT# - сколько раз в сумме показали баннеры контракта
+#MAX_CLICK_COUNT# - максимальное количество кликов на все баннеры контракта
+#CLICK_COUNT# - количество кликов на все баннеры контракта
+#BANNERS# - количество баннеров контракта
+#DATE_SHOW_FROM# - дата начала показа баннеров
+#DATE_SHOW_TO# - дата окончания показа баннеров
+#DATE_CREATE# - дата создания контракта
+#CREATED_BY# - кем был создан контракт
+#DATE_MODIFY# - дата изменения контракта
+#MODIFIED_BY# - кем был изменен контракт
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>allow_encrypted_tokens</name>
+		<value>1</value>
+		<site/>
+	</option>
+	<option>
+		<name>auth_services</name>
+		<value>a:12:{s:9:&quot;VKontakte&quot;;s:1:&quot;N&quot;;s:8:&quot;MyMailRu&quot;;s:1:&quot;N&quot;;s:7:&quot;Twitter&quot;;s:1:&quot;N&quot;;s:8:&quot;Facebook&quot;;s:1:&quot;N&quot;;s:11:&quot;Livejournal&quot;;s:1:&quot;Y&quot;;s:12:&quot;YandexOpenID&quot;;s:1:&quot;Y&quot;;s:7:&quot;Rambler&quot;;s:1:&quot;Y&quot;;s:12:&quot;MailRuOpenID&quot;;s:1:&quot;Y&quot;;s:12:&quot;Liveinternet&quot;;s:1:&quot;Y&quot;;s:7:&quot;Blogger&quot;;s:1:&quot;Y&quot;;s:6:&quot;OpenID&quot;;s:1:&quot;Y&quot;;s:6:&quot;LiveID&quot;;s:1:&quot;N&quot;;}</value>
+		<site/>
+	</option>
+</options>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>P</xml_id>
+	<field>
+		<name>ID</name>
+		<value>P</value>
+	</field>
+	<field>
+		<name>TYPE</name>
+		<value>O</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>150</value>
+	</field>
+	<field>
+		<name>NOTIFY</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME.en</name>
+		<value>Оплачен, формируется к отправке</value>
+	</field>
+	<field>
+		<name>NAME.ru</name>
+		<value>Оплачен, формируется к отправке</value>
+	</field>
+	<field>
+		<name>DESCRIPTION.en</name>
+		<value>Заказ оплачен, формируется к отправке клиенту.</value>
+	</field>
+	<field>
+		<name>DESCRIPTION.ru</name>
+		<value>Заказ оплачен, формируется к отправке клиенту.</value>
+	</field>
+</data>

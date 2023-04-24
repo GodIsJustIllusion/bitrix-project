@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___USER_INFO</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>USER_INFO</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Account Information</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+#USER_ID# - User ID
+#STATUS# - Account status
+#MESSAGE# - Message for user
+#LOGIN# - Login
+#URL_LOGIN# - Encoded login for use in URL
+#CHECKWORD# - Check string for password change
+#NAME# - Name
+#LAST_NAME# - Last Name
+#EMAIL# - User E-Mail
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>2</value>
+	</field>
+</data>

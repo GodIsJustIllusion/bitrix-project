@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___IM_NEW_MESSAGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>IM_NEW_MESSAGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Новое сообщение</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_ID# - ID пользователя
+#USER_LOGIN# - Логин пользователя
+#USER_NAME# - Имя пользователя
+#USER_LAST_NAME# - Фамилия пользователя
+#FROM_USER# - Имя отправителя сообщения
+#MESSAGES# - Блок сообщений
+#EMAIL_TO# - Email получателя письма</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

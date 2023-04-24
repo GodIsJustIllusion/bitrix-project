@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>measure_166</xml_id>
+	<field>
+		<name>CODE</name>
+		<value>166</value>
+	</field>
+	<field>
+		<name>MEASURE_TITLE</name>
+		<value>Килограмм</value>
+	</field>
+	<field>
+		<name>SYMBOL_RUS</name>
+		<value>кг</value>
+	</field>
+	<field>
+		<name>SYMBOL_INTL</name>
+		<value>kg</value>
+	</field>
+	<field>
+		<name>SYMBOL_LETTER_INTL</name>
+		<value>KGM</value>
+	</field>
+	<field>
+		<name>IS_DEFAULT</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SYMBOL</name>
+		<value>кг</value>
+	</field>
+</data>

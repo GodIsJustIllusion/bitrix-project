@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___ADD_IDEA</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADD_IDEA</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Добавлена новая идея</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#FULL_PATH# - Путь к идее
+#TITLE# - Заголовок идеи
+#AUTHOR# - Имя автора идеи
+#IDEA_TEXT# - Текст идеи
+#DATE_PUBLISH# - Дата и время создания идеи
+#EMAIL_TO# - Email подписчика
+#CATEGORY# - Категория</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

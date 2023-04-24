@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___WF_STATUS_CHANGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>WF_STATUS_CHANGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Изменен статус документа</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID
+#ADMIN_EMAIL# - EMail'ы администраторов документооборота (через запятую)
+#BCC# - скрытая копия (все, кто изменял либо может изменить документ в его текущем статусе)
+#PREV_STATUS_ID# - ID предыдущего статуса документа
+#PREV_STATUS_TITLE# - наименование предыдущего статуса документа
+#STATUS_ID# - ID статуса
+#STATUS_TITLE# - наименование статуса
+#DATE_ENTER# - дата создания документа
+#ENTERED_BY_ID# - ID пользователя, создавшего документ
+#ENTERED_BY_NAME# - имя пользователя, создавшего документ
+#ENTERED_BY_EMAIL# - EMail пользователя, создавшего документ
+#DATE_MODIFY# - дата изменения документа
+#MODIFIED_BY_ID# - ID пользователя, изменившего документ
+#MODIFIED_BY_NAME# - имя пользователя, изменившего документ
+#FILENAME# - полное имя файла
+#TITLE# - заголовок файла
+#BODY_HTML# - содержимое документа в формате HTML
+#BODY_TEXT# - содержимое документа в формате TEXT
+#BODY# - содержимое документа, хранящееся в базе
+#BODY_TYPE# - тип содержимого документа
+#COMMENTS# - комментарий
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

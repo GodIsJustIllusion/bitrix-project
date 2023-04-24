@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>different_set</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>stickers_use_hotkeys</name>
+		<value>N</value>
+		<site/>
+	</option>
+	<option>
+		<name>use_editor_3</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>use_pspell</name>
+		<value>N</value>
+		<site/>
+	</option>
+</options>

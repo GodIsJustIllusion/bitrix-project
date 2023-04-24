@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>COUNTRY_INDEX_LOADED</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>IP_LOOKUP_CLASS</name>
+		<value>CCityLookup_stat_table</value>
+		<site/>
+	</option>
+</options>

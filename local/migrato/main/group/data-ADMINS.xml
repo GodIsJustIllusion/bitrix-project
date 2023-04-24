@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ADMINS</xml_id>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Администраторы</value>
+	</field>
+	<field>
+		<name>C_SORT</name>
+		<value>1</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Полный доступ к управлению сайтом.</value>
+	</field>
+	<field>
+		<name>STRING_ID</name>
+		<value>ADMINS</value>
+	</field>
+</data>

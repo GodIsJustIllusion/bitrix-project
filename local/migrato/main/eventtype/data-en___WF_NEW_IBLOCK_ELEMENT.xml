@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___WF_NEW_IBLOCK_ELEMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>WF_NEW_IBLOCK_ELEMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New element of information block was created</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID
+#IBLOCK_ID# - ID of informational block
+#IBLOCK_TYPE# - informational block type
+#SECTION_ID# - section ID
+#ADMIN_EMAIL# - EMails of workflow administrators
+#BCC# - Emails of the users which have already modified the element some time or which can modify it
+#STATUS_ID# - current status ID
+#STATUS_TITLE# - current status name
+#DATE_CREATE# - date of element creation
+#CREATED_BY_ID# - ID of the user that created element
+#CREATED_BY_NAME# - name of the user that created element
+#CREATED_BY_EMAIL# - EMail of the user that created element
+#NAME# - element name
+#PREVIEW_HTML# - brief description in HTML format
+#PREVIEW_TEXT# - brief description in TEXT format
+#PREVIEW# - brief description stored in database
+#PREVIEW_TYPE# - brief description type (text | html)
+#DETAIL_HTML# - full description in HTML format
+#DETAIL_TEXT# - full description in TEXT format
+#DETAIL# - full description stored in database
+#DETAIL_TYPE# - full description type (text | html)
+#COMMENTS# - comments
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

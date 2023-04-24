@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>landing___R</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>landing_right_read</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>landing</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>R</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Просмотр</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value/>
+	</field>
+	<field>
+		<name>OPERATION[]</name>
+		<value>landing_read</value>
+	</field>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>bitrix_currency_currencymanager-currencybaserateagent</xml_id>
+	<field>
+		<name>MODULE_ID</name>
+		<value>currency</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>\Bitrix\Currency\CurrencyManager::currencyBaseRateAgent();</value>
+	</field>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>AGENT_INTERVAL</name>
+		<value>86400</value>
+	</field>
+	<field>
+		<name>IS_PERIOD</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>ADMIN</name>
+		<value>N</value>
+	</field>
+</data>

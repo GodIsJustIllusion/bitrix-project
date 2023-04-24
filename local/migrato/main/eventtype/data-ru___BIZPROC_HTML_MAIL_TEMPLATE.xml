@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___BIZPROC_HTML_MAIL_TEMPLATE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>BIZPROC_HTML_MAIL_TEMPLATE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Сообщение действия отправки почты (HTML)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#SENDER# - Отправитель сообщения
+#RECEIVER# - Получатель сообщения
+#TITLE# - Заголовок сообщения
+#MESSAGE# - Сообщение</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

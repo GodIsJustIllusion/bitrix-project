@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___CATALOG_PRODUCT_SUBSCRIBE_NOTIFY_REPEATED</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>CATALOG_PRODUCT_SUBSCRIBE_NOTIFY_REPEATED</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Уведомление о товаре в магазине</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_NAME# - имя пользователя
+#EMAIL_TO# - email пользователя
+#NAME# - название товара
+#PAGE_URL# - детальная страница товара
+#PRODUCT_ID# - id товара для формирования ссылок
+#UNSUBSCRIBE_URL# - ссылка отписки от товара
+#UNSUBSCRIBE_URL_PARAMETERS# - параметры ссылки отписки от товара
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

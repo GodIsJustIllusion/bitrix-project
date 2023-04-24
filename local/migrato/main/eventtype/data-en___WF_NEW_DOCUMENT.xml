@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___WF_NEW_DOCUMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>WF_NEW_DOCUMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New document was created</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID
+#ADMIN_EMAIL# - EMails of workflow administrators
+#BCC# - Emails of the users which have already modified the document some time or which can modify it
+#STATUS_ID# - status ID
+#STATUS_TITLE# - status name
+#DATE_ENTER# - date of document creation
+#ENTERED_BY_ID# - ID of the user that created document
+#ENTERED_BY_NAME# - name of the user that created document
+#ENTERED_BY_EMAIL# - EMail of the user that created document
+#FILENAME# - full file name
+#TITLE# - file title
+#BODY_HTML# - document contents in HTML format
+#BODY_TEXT# - document contents in TEXT format
+#BODY# - document's content stored in database
+#BODY_TYPE# - type of document contents
+#COMMENTS# - comments
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

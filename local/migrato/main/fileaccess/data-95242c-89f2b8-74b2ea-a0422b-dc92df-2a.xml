@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>95242c-89f2b8-74b2ea-a0422b-dc92df-2a</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>sale_administrator</value>
+	</dependency>
+	<field>
+		<name>DIR</name>
+		<value>C:/OSPanel/domains/bitrix.loc/bitrix</value>
+	</field>
+	<field>
+		<name>PATH</name>
+		<value>admin</value>
+	</field>
+	<field>
+		<name>PERMISSION</name>
+		<value>R</value>
+	</field>
+</data>

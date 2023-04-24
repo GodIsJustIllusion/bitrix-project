@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>security___D</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>security_denied</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+	<field>
+		<name>MODULE_ID</name>
+		<value>security</value>
+	</field>
+	<field>
+		<name>LETTER</name>
+		<value>D</value>
+	</field>
+	<field>
+		<name>SYS</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>TITLE</name>
+		<value>Доступ закрыт</value>
+	</field>
+	<field>
+		<name>DESC</name>
+		<value>Доступ к модулю 'Проактивная защита' запрещен</value>
+	</field>
+</data>

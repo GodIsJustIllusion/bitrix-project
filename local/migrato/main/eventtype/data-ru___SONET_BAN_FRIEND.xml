@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SONET_BAN_FRIEND</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_BAN_FRIEND</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Занесение в черный список</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#RELATION_ID# - ID связи
+#SENDER_USER_ID# - ID отправителя
+#SENDER_USER_NAME# - Имя отправителя
+#SENDER_USER_LAST_NAME# - Фамилия отправителя
+#SENDER_EMAIL_TO# - Email отправителя
+#RECIPIENT_USER_ID# - ID получателя
+#RECIPIENT_USER_NAME# - Имя получателя
+#RECIPIENT_USER_LAST_NAME# - Фамилия получателя
+#RECIPIENT_USER_EMAIL_TO# - Email получателя
+#MESSAGE# - Сообщение</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

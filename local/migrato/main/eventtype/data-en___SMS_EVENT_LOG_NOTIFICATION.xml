@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SMS_EVENT_LOG_NOTIFICATION</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SMS_EVENT_LOG_NOTIFICATION</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Event log notification</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#PHONE_NUMBER# - Recipient phone number
+#ADDITIONAL_TEXT# - Action additional text
+#NAME# - Notification name
+#AUDIT_TYPE_ID# - Event type
+#ITEM_ID# - Object
+#USER_ID# - User
+#REMOTE_ADDR# - IP address
+#USER_AGENT# - Browser
+#REQUEST_URI# - Page URL
+#EVENT_COUNT# - Number of events</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

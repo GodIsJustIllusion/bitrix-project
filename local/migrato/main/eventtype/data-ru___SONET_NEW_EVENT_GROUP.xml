@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SONET_NEW_EVENT_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_NEW_EVENT_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Новое событие группы</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ENTITY_ID# - ID группы
+#LOG_DATE# - Дата записи
+#TITLE# - Заголовок
+#MESSAGE# - Сообщение
+#URL# - Адрес
+#GROUP_NAME# - Название группы
+#SUBSCRIBER_NAME# - Имя получателя
+#SUBSCRIBER_LAST_NAME# - Фамилия получателя
+#SUBSCRIBER_EMAIL# - Email получателя
+#SUBSCRIBER_ID# - ID получателя</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

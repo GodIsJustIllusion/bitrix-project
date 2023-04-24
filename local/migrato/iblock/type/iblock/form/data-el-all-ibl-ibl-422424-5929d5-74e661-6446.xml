@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>el-all-ibl-ibl-422424-5929d5-74e661-6446</xml_id>
+	<dependency>
+		<name>IBLOCK_ID</name>
+		<value>ibl-ibl-422424-5929d5-74e661-6446</value>
+	</dependency>
+	<dependency>
+		<name>PROPERTY_ID[]</name>
+		<value>ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-259922-124818-d5e661-6446</value>
+	</dependency>
+	<dependency>
+		<name>PROPERTY_ID[]</name>
+		<value>ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-680750-46680b-e5e661-6446</value>
+	</dependency>
+	<dependency>
+		<name>PROPERTY_ID[]</name>
+		<value>ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-058424-1094b9-f5e661-6446</value>
+	</dependency>
+	<field>
+		<name>VALUE</name>
+		<value>a:1:{s:4:&quot;tabs&quot;;s:478:&quot;edit1--#--Элемент--,--ID--#--ID--,--ACTIVE--#--Активность--,--NAME--#--*Название--,--SORT--#--Сортировка--,--PROPERTY_ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-680750-46680b-e5e661-6446--#--*Иконка соцсети--,--PROPERTY_ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-259922-124818-d5e661-6446--#--*Название соцсети--,--PROPERTY_ibl-ibl-422424-5929d5-74e661-6446.ibl-prop-058424-1094b9-f5e661-6446--#--*Ссылка--;--&quot;;}</value>
+	</field>
+</data>

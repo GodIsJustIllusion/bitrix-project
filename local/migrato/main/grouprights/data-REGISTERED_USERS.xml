@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>REGISTERED_USERS</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>REGISTERED_USERS</value>
+	</dependency>
+	<dependency>
+		<name>TASK[]</name>
+		<value>main___P</value>
+	</dependency>
+</data>

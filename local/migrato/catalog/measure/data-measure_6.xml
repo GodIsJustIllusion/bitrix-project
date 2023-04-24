@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>measure_6</xml_id>
+	<field>
+		<name>CODE</name>
+		<value>6</value>
+	</field>
+	<field>
+		<name>MEASURE_TITLE</name>
+		<value>Метр</value>
+	</field>
+	<field>
+		<name>SYMBOL_RUS</name>
+		<value>м</value>
+	</field>
+	<field>
+		<name>SYMBOL_INTL</name>
+		<value>m</value>
+	</field>
+	<field>
+		<name>SYMBOL_LETTER_INTL</name>
+		<value>MTR</value>
+	</field>
+	<field>
+		<name>IS_DEFAULT</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SYMBOL</name>
+		<value>м</value>
+	</field>
+</data>

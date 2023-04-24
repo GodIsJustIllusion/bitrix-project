@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___USER_INVITE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>USER_INVITE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Invitation of a new site user</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - User ID
+#LOGIN# - Login
+#URL_LOGIN# - Encoded login for use in URL
+#EMAIL# - EMail
+#NAME# - Name
+#LAST_NAME# - Last Name
+#PASSWORD# - User password 
+#CHECKWORD# - Password check string
+#XML_ID# - User ID to link with external data sources
+
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>6</value>
+	</field>
+</data>

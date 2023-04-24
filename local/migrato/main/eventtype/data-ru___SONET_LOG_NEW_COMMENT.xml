@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___SONET_LOG_NEW_COMMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_LOG_NEW_COMMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Добавлен новый комментарий</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#EMAIL_TO# - Email получателя письма
+#COMMENT_ID# - ID комментария
+#LOG_ENTRY_ID# - ID сообщения
+#RECIPIENT_ID# - ID получателя
+#URL_ID# - URL страницы сообщения
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

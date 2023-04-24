@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>DN</xml_id>
+	<field>
+		<name>ID</name>
+		<value>DN</value>
+	</field>
+	<field>
+		<name>TYPE</name>
+		<value>D</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>300</value>
+	</field>
+	<field>
+		<name>NOTIFY</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME.ru</name>
+		<value>Ожидает обработки</value>
+	</field>
+	<field>
+		<name>DESCRIPTION.ru</name>
+		<value>Ожидает обработки</value>
+	</field>
+</data>

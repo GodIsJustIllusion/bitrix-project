@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___CATALOG_PRODUCT_SUBSCRIBE_LIST_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>CATALOG_PRODUCT_SUBSCRIBE_LIST_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Код подтверждения</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+#TOKEN# - Код подтверждения
+#TOKEN_URL# - Ссылка с кодом подтверждения
+#LIST_SUBSCRIBES# - Список подписок
+#URL_PARAMETERS# - Параметры ссылки для подтверждения кода доступа
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

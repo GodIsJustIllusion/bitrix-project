@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options migrato="1.0.1">
+	<option>
+		<name>allow_negative_amount</name>
+		<value>N</value>
+		<site/>
+	</option>
+	<option>
+		<name>default_can_buy_zero</name>
+		<value>N</value>
+		<site/>
+	</option>
+	<option>
+		<name>default_quantity_trace</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>default_use_store_control</name>
+		<value>Y</value>
+		<site/>
+	</option>
+	<option>
+		<name>subscribe_repeated_notify</name>
+		<value>Y</value>
+		<site/>
+	</option>
+</options>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SALE_ORDER_SHIPMENT_STATUS_CHANGED</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_ORDER_SHIPMENT_STATUS_CHANGED</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Package status update</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#SHIPMENT_NO# - shipment ID
+#SHIPMENT_DATE# - shipped on
+#ORDER_NO# - order #
+#ORDER_DATE# - order date
+#STATUS_NAME# - status name
+#STATUS_DESCRIPTION# - status description
+#TRACKING_NUMBER# - tracking number
+#EMAIL# - notify e-mail address
+#BCC# - send copy to address
+#ORDER_USER# - customer
+#DELIVERY_NAME# - delivery service name
+#DELIVERY_TRACKING_URL# - delivery service website for more tracking details
+#ORDER_ACCOUNT_NUMBER_ENCODE# - order ID (for links)
+#ORDER_PUBLIC_URL# - order view link for unauthorized users (requires configuration in the e-Store module settings)
+#ORDER_DETAIL_URL# - order details URL</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

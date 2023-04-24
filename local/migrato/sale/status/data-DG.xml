@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>DG</xml_id>
+	<field>
+		<name>ID</name>
+		<value>DG</value>
+	</field>
+	<field>
+		<name>TYPE</name>
+		<value>D</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>320</value>
+	</field>
+	<field>
+		<name>NOTIFY</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME.en</name>
+		<value>Ожидаем приход товара</value>
+	</field>
+	<field>
+		<name>NAME.ru</name>
+		<value>Ожидаем приход товара</value>
+	</field>
+	<field>
+		<name>DESCRIPTION.en</name>
+		<value>Ожидаем приход товара</value>
+	</field>
+	<field>
+		<name>DESCRIPTION.ru</name>
+		<value>Ожидаем приход товара</value>
+	</field>
+</data>

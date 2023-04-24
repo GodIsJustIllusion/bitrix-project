@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>eshop_brand_reference</xml_id>
+	<field>
+		<name>NAME</name>
+		<value>BrandReference</value>
+	</field>
+	<field>
+		<name>TABLE_NAME</name>
+		<value>eshop_brand_reference</value>
+	</field>
+</data>

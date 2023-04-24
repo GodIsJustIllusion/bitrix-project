@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en</xml_id>
+	<dependency>
+		<name>CULTURE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>SORT</name>
+		<value>2</value>
+	</field>
+	<field>
+		<name>DEF</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>English</value>
+	</field>
+</data>

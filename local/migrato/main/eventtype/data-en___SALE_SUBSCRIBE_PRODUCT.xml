@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SALE_SUBSCRIBE_PRODUCT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SALE_SUBSCRIBE_PRODUCT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Back in stock notification</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_NAME# - user name
+#EMAIL# - user e-mail 
+#NAME# - product name
+#PAGE_URL# - product details page</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

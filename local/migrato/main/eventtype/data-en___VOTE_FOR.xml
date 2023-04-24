@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___VOTE_FOR</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>VOTE_FOR</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New vote</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - Vote result ID
+#TIME# - Time of vote
+#VOTE_TITLE# - Poll name
+#VOTE_DESCRIPTION# - Poll description
+#VOTE_ID# - Poll ID
+#CHANNEL# - Poll group name
+#CHANNEL_ID# - Poll group ID
+#VOTER_ID# - Voter's user ID
+#USER_NAME# - User full name
+#LOGIN# - login
+#USER_ID# - User ID
+#STAT_GUEST_ID# - Visitor ID in web analytics module
+#SESSION_ID# - Session ID in web analytics module
+#IP# - IP address
+#VOTE_STATISTIC# - Summary statistics of this poll type ( - Question - Answer)
+#URL# - Poll URL</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>catalog-store-342404-597939-54e661-6446</xml_id>
+	<field>
+		<name>TITLE</name>
+		<value>Склад</value>
+	</field>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+	<field>
+		<name>ADDRESS</name>
+		<value>пр. Московский д. 51</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>Здесь вы найдете одежду ведущих производителей мира</value>
+	</field>
+	<field>
+		<name>GPS_N</name>
+		<value>54.71411</value>
+	</field>
+	<field>
+		<name>GPS_S</name>
+		<value>20.56675</value>
+	</field>
+	<field>
+		<name>PHONE</name>
+		<value>8 (495) 212 85 06</value>
+	</field>
+	<field>
+		<name>SCHEDULE</name>
+		<value>Пн.-Пт. с 9:00 до 20:00, Сб.-Вс. с 11:00 до 18:00</value>
+	</field>
+	<field>
+		<name>EMAIL</name>
+		<value/>
+	</field>
+	<field>
+		<name>ISSUING_CENTER</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>SHIPPING_CENTER</name>
+		<value>N</value>
+	</field>
+</data>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SUBSCRIBE_CONFIRM</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SUBSCRIBE_CONFIRM</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Confirmation of subscription</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - subscription ID
+#EMAIL# - subscription email
+#CONFIRM_CODE# - confirmation code
+#SUBSCR_SECTION# - section with subscription edit page (specifies in the settings)
+#USER_NAME# - subscriber's name (optional)
+#DATE_SUBSCR# - date of adding/change of address
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

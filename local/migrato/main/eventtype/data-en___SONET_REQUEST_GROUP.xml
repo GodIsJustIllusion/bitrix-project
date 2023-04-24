@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___SONET_REQUEST_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>SONET_REQUEST_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Group Membership Request</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#MESSAGE_ID# - the message ID
+#USER_ID# - the request recipient ID
+#USER_NAME# - the request recipient first name
+#USER_LAST_NAME# - the request recipient last name
+#SENDER_ID# - the request sender ID
+#SENDER_NAME# - the request sender first name
+#SENDER_LAST_NAME# - the request sender last name
+#TITLE# - the message title
+#MESSAGE# - the message body
+#EMAIL_TO# - the message recipient's e-mail</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

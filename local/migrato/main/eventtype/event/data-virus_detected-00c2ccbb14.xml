@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>virus_detected-00c2ccbb14</xml_id>
+	<dependency>
+		<name>EVENT_NAME</name>
+		<value>en___VIRUS_DETECTED</value>
+	</dependency>
+	<dependency>
+		<name>SITE[]</name>
+		<value>s1</value>
+	</dependency>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>EMAIL_FROM</name>
+		<value>#DEFAULT_EMAIL_FROM#</value>
+	</field>
+	<field>
+		<name>EMAIL_TO</name>
+		<value>#EMAIL#</value>
+	</field>
+	<field>
+		<name>SUBJECT</name>
+		<value>#SITE_NAME#: Обнаружен вирус</value>
+	</field>
+	<field>
+		<name>MESSAGE</name>
+		<value>Информационное сообщение сайта #SITE_NAME#
+------------------------------------------
+
+Здравствуйте!
+
+Вы получили это сообщение, так как модуль проактивной защиты сервера #SERVER_NAME# обнаружил код, похожий на вирус.
+
+1. Подозрительный код был вырезан из html.
+2. Проверьте журнал вторжений и убедитесь, что код действительно вредоносный, а не является кодом какого-либо счетчика или фреймворка.
+ (ссылка: http://#SERVER_NAME#/bitrix/admin/event_log.php?lang=ru&amp;set_filter=Y&amp;find_type=audit_type_id&amp;find_audit_type[]=SECURITY_VIRUS )
+3. В случае, если код не является опасным, добавьте его в исключения на странице настройки антивируса.
+ (ссылка: http://#SERVER_NAME#/bitrix/admin/security_antivirus.php?lang=ru&amp;tabControl_active_tab=exceptions )
+4. Если код является вирусным, то необходимо выполнить следующие действия:
+
+ а) Смените пароли доступа к сайту у администраторов и ответственных сотрудников.
+ б) Смените пароли доступа по ssh и ftp.
+ в) Проверьте и вылечите компьютеры администраторов, имевших доступ к сайту по ssh или ftp.
+ г) В программах доступа к сайту по ssh и ftp отключите сохранение паролей.
+ д) Удалите вредоносный код из зараженных файлов. Например, восстановите поврежденные файлы из самой свежей резервной копии.
+
+---------------------------------------------------------------------
+Сообщение сгенерировано автоматически.
+</value>
+	</field>
+	<field>
+		<name>BODY_TYPE</name>
+		<value>text</value>
+	</field>
+	<field>
+		<name>BCC</name>
+		<value/>
+	</field>
+	<field>
+		<name>CC</name>
+		<value/>
+	</field>
+	<field>
+		<name>REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>IN_REPLY_TO</name>
+		<value/>
+	</field>
+	<field>
+		<name>PRIORITY</name>
+		<value/>
+	</field>
+	<field>
+		<name>ADDITIONAL_FIELD</name>
+		<value>a:0:{}</value>
+	</field>
+	<field>
+		<name>SITE_TEMPLATE_ID</name>
+		<value/>
+	</field>
+</data>

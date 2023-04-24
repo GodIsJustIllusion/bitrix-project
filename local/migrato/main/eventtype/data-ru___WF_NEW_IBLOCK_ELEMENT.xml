@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___WF_NEW_IBLOCK_ELEMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>WF_NEW_IBLOCK_ELEMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Создан новый элемент инфоблока</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID
+#IBLOCK_ID# - ID информационного блока
+#IBLOCK_TYPE# - тип информационного блока
+#SECTION_ID# - ID секции
+#ADMIN_EMAIL# - EMail'ы администраторов документооборота
+#BCC# - скрытая копия (все, кто изменял либо может изменить документ в его текущем статусе)
+#STATUS_ID# - ID статуса
+#STATUS_TITLE# - наименование статуса
+#DATE_CREATE# - дата создания элемента
+#CREATED_BY_ID# - ID пользователя, создавшего элемент
+#CREATED_BY_NAME# - имя пользователя, создавшего элемент
+#CREATED_BY_EMAIL# - EMail пользователя, создавшего элемент
+#NAME# - наименование элемента
+#PREVIEW_HTML# - анонс в формате HTML
+#PREVIEW_TEXT# - анонс в формате TEXT
+#PREVIEW# - анонс, хранящийся в базе
+#PREVIEW_TYPE# - тип анонса (text | html)
+#DETAIL_HTML# - детальное описание элемента в формате HTML
+#DETAIL_TEXT# - детальное описание элемента в формате TEXT
+#DETAIL# - детальное описание элемента, хранящееся в базе
+#DETAIL_TYPE# - тип детального описания
+#COMMENTS# - комментарий
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>sale_administrator</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>sale_administrator</value>
+	</dependency>
+	<dependency>
+		<name>TASK[]</name>
+		<value>catalog___T</value>
+	</dependency>
+	<dependency>
+		<name>TASK[]</name>
+		<value>main___Q</value>
+	</dependency>
+	<field>
+		<name>CODE_RIGHT[]</name>
+		<value>sale___U</value>
+	</field>
+</data>

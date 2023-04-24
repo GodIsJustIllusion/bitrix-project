@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___NEW_USER</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>NEW_USER</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Зарегистрировался новый пользователь</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+#USER_ID# - ID пользователя
+#LOGIN# - Логин
+#EMAIL# - EMail
+#NAME# - Имя
+#LAST_NAME# - Фамилия
+#USER_IP# - IP пользователя
+#USER_HOST# - Хост пользователя
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>1</value>
+	</field>
+</data>

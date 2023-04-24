@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>IB_ELEMENT_LIST.clothes_s1.1</xml_id>
+	<dependency>
+		<name>IBLOCK</name>
+		<value>clothes_s1</value>
+	</dependency>
+	<field>
+		<name>COMMON</name>
+		<value>N</value>
+	</field>
+	<field>
+		<name>CATEGORY</name>
+		<value>main.ui.filter</value>
+	</field>
+	<field>
+		<name>VALUE</name>
+		<value>a:6:{s:14:&quot;use_pin_preset&quot;;b:1;s:15:&quot;deleted_presets&quot;;a:0:{}s:15:&quot;default_presets&quot;;a:0:{}s:7:&quot;default&quot;;s:14:&quot;default_filter&quot;;s:6:&quot;filter&quot;;s:14:&quot;default_filter&quot;;s:7:&quot;filters&quot;;a:1:{s:14:&quot;default_filter&quot;;a:2:{s:11:&quot;filter_rows&quot;;s:0:&quot;&quot;;s:6:&quot;fields&quot;;a:0:{}}}}</value>
+	</field>
+</data>

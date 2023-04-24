@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___WF_STATUS_CHANGE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>WF_STATUS_CHANGE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Document status was changed</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#ID# - ID
+#ADMIN_EMAIL# - Emails of workflow administrators
+#BCC# - Emails of the users who have already modified the document at some time or who can modify it
+#PREV_STATUS_ID# - ID of previous status of document
+#PREV_STATUS_TITLE# - name of previous status of document
+#STATUS_ID# - status ID
+#STATUS_TITLE# - status name
+#DATE_ENTER# - date of document creation
+#ENTERED_BY_ID# - ID of the user that created document
+#ENTERED_BY_NAME# - name of the user that created document
+#ENTERED_BY_EMAIL# - Email of the user that created document
+#DATE_MODIFY# - date of document modification
+#MODIFIED_BY_ID# - ID of the user that modified document
+#MODIFIED_BY_NAME# - name of the user that modified document
+#FILENAME# - full file name
+#TITLE# - file title
+#BODY_HTML# - document contents in HTML format
+#BODY_TEXT# - document contents in TEXT format
+#BODY# - document's content stored in database
+#BODY_TYPE# - type of document contents
+#COMMENTS# - comments
+</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

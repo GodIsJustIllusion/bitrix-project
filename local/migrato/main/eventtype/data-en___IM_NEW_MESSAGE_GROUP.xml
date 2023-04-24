@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___IM_NEW_MESSAGE_GROUP</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>IM_NEW_MESSAGE_GROUP</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>New message (group)</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#USER_ID# - user ID
+#USER_LOGIN# - user login
+#USER_NAME# - user first name
+#USER_LAST_NAME# - user last name
+#FROM_USERS# - message senders names
+#MESSAGES# - messages
+#EMAIL_TO# - recipient E-mail address</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>ru___MAIN_MAIL_CONFIRM_CODE</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>ru</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>MAIN_MAIL_CONFIRM_CODE</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Подтверждение email-адреса отправителя</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>
+
+#EMAIL_TO# - Email-адрес для подтверждения
+#MESSAGE_SUBJECT# - Тема сообщения
+#CONFIRM_CODE# - Код подтверждения</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>8</value>
+	</field>
+</data>

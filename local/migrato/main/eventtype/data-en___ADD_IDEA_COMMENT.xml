@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>en___ADD_IDEA_COMMENT</xml_id>
+	<dependency>
+		<name>LANGUAGE</name>
+		<value>en</value>
+	</dependency>
+	<field>
+		<name>EVENT_NAME</name>
+		<value>ADD_IDEA_COMMENT</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>A new comment added to idea</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value>#FULL_PATH# - Comment path
+#IDEA_TITLE# - Idea title
+#AUTHOR# - Comment author
+#IDEA_COMMENT_TEXT# - Comment text
+#DATE_CREATE# - Comment added on
+#EMAIL_TO# - Subscriber e-mail</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>100</value>
+	</field>
+</data>

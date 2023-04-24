@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>PARALLAX</xml_id>
+	<field>
+		<name>SID</name>
+		<value>PARALLAX</value>
+	</field>
+	<field>
+		<name>ACTIVE</name>
+		<value>Y</value>
+	</field>
+	<field>
+		<name>SORT</name>
+		<value>2</value>
+	</field>
+	<field>
+		<name>NAME</name>
+		<value>Дополнительный баннер</value>
+	</field>
+	<field>
+		<name>DESCRIPTION</name>
+		<value/>
+	</field>
+</data>

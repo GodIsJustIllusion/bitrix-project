@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data migrato="1.0.1">
+	<xml_id>RATING_VOTE_AUTHORITY</xml_id>
+	<dependency>
+		<name>GROUP</name>
+		<value>RATING_VOTE_AUTHORITY</value>
+	</dependency>
+</data>
