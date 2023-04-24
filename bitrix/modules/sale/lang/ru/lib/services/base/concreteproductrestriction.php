@@ -1,3 +1,0 @@
-<?php
-$MESS['SALE_BASE_RESTRICTION_BY_PRODUCT'] = 'по конкретным товарам';
-$MESS['SALE_BASE_RESTRICTION_BY_PRODUCT_LST_LABEL'] = 'Товары';
